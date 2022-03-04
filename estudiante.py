@@ -17,6 +17,9 @@ class Estudiante:
     def obtenerContra(self):
         return self.contra
 
+    def __str__(self) -> str:
+        return f'Nombre: {self.nombre}\nCorreo: {self.correo}\nContra: {self.contra}'
+
 
 if __name__ == '__main__':
 
